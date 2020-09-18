@@ -18,7 +18,7 @@ Sudoku
 '''
 
 def solve_sudoku(board):
-    print_board(board)
+  #  print_board(board)
     is_solved = has_empty(board)
     if not is_solved:
         return True
@@ -29,8 +29,6 @@ def solve_sudoku(board):
             if solve_sudoku(board):
                 return True
         board[x][y] = 0        
-      
-    
 
 def has_empty(board):
     for i in range(9):
@@ -44,7 +42,7 @@ def get_empty_cell(board):
             print(i, j, board[i][j])
             if board[i][j] == 0:
                 return i, j
-        
+
 def is_valid(x, y, board):
     #Add condition for x
     #Checks if the row is valid
