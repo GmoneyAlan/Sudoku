@@ -3,16 +3,6 @@ Sudoku
     81 cells in total
     fill in a 3 x 3 block with number from 1 - 9 NO REPEATS
     The number also cant repeat with a row and a columns
-
-    build board
-    Check if the board has empty cells
-    if it does try to solve using the algorithm where there are no repeats in a row/column and block
-    
-    road map
-    check if board has empty cells
-    get cell solve it
-    check if valid
-    repeat
     
     We will use backtracing for this
 '''
